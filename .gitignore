@@ -3,8 +3,8 @@
 # dependencies
 /react_app/node_modules
 /react_app/.pnp
-/vanila_js_app/node_modules
-/vanila_js_app/.pnp
+/vanilla_js_app/node_modules
+/vanilla_js_app/.pnp
 .pnp.js
 
 # testing

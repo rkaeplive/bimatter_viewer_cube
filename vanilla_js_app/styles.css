@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+#viewer-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    width: 100%;
+    height: 100%;
+}
+
+.bimatter__link {
+    z-index: 100;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    text-decoration: none;
+    color: #305af6d4;
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="bimatter_loader.css" />
+        <link rel="stylesheet" href="viewer_cube.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <a class="bimatter__link" href="https://www.bimatter.ru">
+            bimatter.ru
+        </a>
+        <div class="loader__wrap">
+            <div class="loading loadingAct">
+                <span data-text="b">b</span>
+                <span data-text="i">i</span>
+                <span data-text="m">m</span>
+                <span data-text="a">a</span>
+                <span data-text="t">t</span>
+                <span data-text="t">t</span>
+                <span data-text="e">e</span>
+                <span data-text="r">r</span>
+            </div>
+        </div>
+        <div id="viewer-container">
+            <div class="cube__wrap">
+                <div class="cube">
+                    <div class="cube__face cube__face--bottom" id="bottom">
+                        bot
+                    </div>
+
+                    <div class="cube__face cube__face--top" id="top">top</div>
+                    <div class="cube__face cube__face--right" id="right">
+                        right
+                    </div>
+                    <div class="cube__face cube__face--left" id="left">
+                        left
+                    </div>
+                    <div class="cube__face cube__face--front" id="front">
+                        front
+                    </div>
+                    <div class="cube__face cube__face--back" id="back">
+                        back
+                    </div>
+                    <div id="top_left" class="cube__face__face__edge__wrap">
+                        <div
+                            class="cube__face__face__edge cube__face--top--left"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__face--left--top"
+                        ></div>
+                    </div>
+                    <div id="top_right" class="cube__face__face__edge__wrap">
+                        <div
+                            class="cube__face__face__edge cube__face--top--right"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__face--right--top"
+                        ></div>
+                    </div>
+                    <div id="bottom_left" class="cube__face__face__edge__wrap">
+                        <div
+                            class="cube__face__face__edge cube__face--bottom--left"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__face--left--bottom"
+                        ></div>
+                    </div>
+                    <div id="bottom_right" class="cube__face__face__edge__wrap">
+                        <div
+                            class="cube__face__face__edge cube__face--bottom--right"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__face--right--bottom"
+                        ></div>
+                    </div>
+                    <div id="bottom_front" class="cube__face__face__edge__wrap">
+                        <div
+                            class="cube__face__face__edge cube__face--front--bottom"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__face--bottom--front"
+                        ></div>
+                    </div>
+                    <div id="bottom_back" class="cube__face__face__edge__wrap">
+                        <div
+                            class="cube__face__face__edge cube__face--back--bottom"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__face--bottom--back"
+                        ></div>
+                    </div>
+                    <div id="top_front" class="cube__face__face__edge__wrap">
+                        <div
+                            class="cube__face__face__edge cube__face--front--top"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__face--top--front"
+                        ></div>
+                    </div>
+                    <div id="top_back" class="cube__face__face__edge__wrap">
+                        <div
+                            class="cube__face__face__edge cube__face--back--top"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__face--top--back"
+                        ></div>
+                    </div>
+                    <div id="left_back" class="cube__face__face__edge__wrap">
+                        <div
+                            class="cube__face__face__edge cube__face--back--left"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__face--left--back"
+                        ></div>
+                    </div>
+                    <div id="right_back" class="cube__face__face__edge__wrap">
+                        <div
+                            class="cube__face__face__edge cube__face--back--right"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__face--right--back"
+                        ></div>
+                    </div>
+                    <div id="right_front" class="cube__face__face__edge__wrap">
+                        <div
+                            class="cube__face__face__edge cube__face--front--right"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__face--right--front"
+                        ></div>
+                    </div>
+
+                    <div id="left_front" class="cube__face__face__edge__wrap">
+                        <div
+                            class="cube__face__face__edge cube__face--front--left"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__face--left--front"
+                        ></div>
+                    </div>
+
+                    <div
+                        id="top_left_front"
+                        class="cube__face__face__edge__wrap"
+                    >
+                        <div
+                            class="cube__face__face__edge cube__edge--left--front--top"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--front--left--top"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--top--left--front"
+                        ></div>
+                    </div>
+                    <div
+                        id="top_right_front"
+                        class="cube__face__face__edge__wrap"
+                    >
+                        <div
+                            class="cube__face__face__edge cube__edge--right--front--top"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--front--right--top"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--top--right--front"
+                        ></div>
+                    </div>
+                    <div
+                        id="top_left_back"
+                        class="cube__face__face__edge__wrap"
+                    >
+                        <div
+                            class="cube__face__face__edge cube__edge--back--left--top"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--left--back--top"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--top--left--back"
+                        ></div>
+                    </div>
+                    <div
+                        id="top_right_back"
+                        class="cube__face__face__edge__wrap"
+                    >
+                        <div
+                            class="cube__face__face__edge cube__edge--back--right--top"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--right--back--top"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--top--right--back"
+                        ></div>
+                    </div>
+
+                    <div
+                        id="bottom_left_front"
+                        class="cube__face__face__edge__wrap"
+                    >
+                        <div
+                            class="cube__face__face__edge cube__edge--left--front--bottom"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--front--left--bottom"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--bottom--left--front"
+                        ></div>
+                    </div>
+                    <div
+                        id="bottom_right_front"
+                        class="cube__face__face__edge__wrap"
+                    >
+                        <div
+                            class="cube__face__face__edge cube__edge--right--front--bottom"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--front--right--bottom"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--bottom--right--front"
+                        ></div>
+                    </div>
+                    <div
+                        id="bottom_right_back"
+                        class="cube__face__face__edge__wrap"
+                    >
+                        <div
+                            class="cube__face__face__edge cube__edge--back--left--bottom"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--left--back--bottom"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--bottom--left--back"
+                        ></div>
+                    </div>
+                    <div
+                        id="bottom_left_back"
+                        class="cube__face__face__edge__wrap"
+                    >
+                        <div
+                            class="cube__face__face__edge cube__edge--back--right--bottom"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--right--back--bottom"
+                        ></div>
+                        <div
+                            class="cube__face__face__edge cube__edge--bottom--right--back"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="src/bundle.js"></script>
+    </body>
+</html>

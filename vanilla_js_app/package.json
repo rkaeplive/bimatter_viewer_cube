@@ -1,0 +1,22 @@
+{
+    "name": "example",
+    "version": "1.0.0",
+    "description": "-",
+    "main": "app.js",
+    "scripts": {
+        "start": "node server.js",
+        "build": "rollup -c ./rollup.config.js",
+        "watch": "rollup -w -c ./rollup.config.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "sass": "^1.60.0",
+        "web-ifc-viewer": "^1.0.213"
+    },
+    "devDependencies": {
+        "@rollup/plugin-node-resolve": "^15.0.1",
+        "rollup": "^3.20.2"
+    }
+}
